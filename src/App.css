@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  background: linear-gradient(to bottom right, #009ea7, #009ed7) fixed;
+}
+
+h1 {
+  color: yellow;
+  text-shadow: pink 2px 1px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+form {
+  height: 50px;
+}
+
+label {
+  color: yellow;
+  margin-right: 10px;
+}
+
+input {
+  border-radius: 10px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+button {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.nav-separator::before {
+  content: "|";
+  margin-left: 5px;
+  margin-right: 5px;
+}
